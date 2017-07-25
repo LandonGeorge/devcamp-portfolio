@@ -1,6 +1,6 @@
 module PortfoliosHelper
   def image_generator(height:, width:)
-    "http://placeholdit.it/#{height}x#{width}"
+    "https://placeholdit.co//i/#{height}x#{width}"
   end
   
   def portfolio_img img, type
